@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stopwatch"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="StopWatch" />
+        <item
+            android:id="@+id/nav_berat"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Berat Ideal" />
+        <item
+            android:id="@+id/nav_pesan"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Pesan Katering" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_tentang"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tentang Aplikasi" />
+            <item
+                android:id="@+id/nav_data"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Data Pengembang" />
+        </menu>
+    </item>
+
+</menu>
